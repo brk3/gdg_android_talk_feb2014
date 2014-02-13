@@ -1,0 +1,21 @@
+* Intro
+  * How long had been coding, writing java
+
+* Why write an app
+  * I had another hobby
+    * Flickr app sucked, "I could do better"
+  * Satisying to ship something
+  * Have others use your code
+
+* How to start
+  * Whats in an Android devs toolbox
+    * Writing
+    * Building
+    * Libraries
+
+* Challenges
+
+* Publishing
+  * Where I posted my app
+
+* Thanks / Questions

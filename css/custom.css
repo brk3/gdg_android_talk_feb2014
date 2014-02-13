@@ -1,0 +1,12 @@
+.legend {
+  float: right;
+  border-spacing: 8px;
+}
+
+.reveal .plain {
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
