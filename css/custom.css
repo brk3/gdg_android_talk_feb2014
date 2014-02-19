@@ -10,3 +10,10 @@
   -moz-box-shadow: none;
   box-shadow: none;
 }
+
+.profile-img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+

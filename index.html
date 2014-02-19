@@ -14,7 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/default.css" id="theme">
     <link rel="stylesheet" href="css/custom.css">
 
@@ -40,6 +40,13 @@
         <section>
           <h1>Adventures in Android Development</h1>
           <h3>from hobby to play store</h3>
+        </section>
+
+        <section>
+          <img class="profile-img" src="images/profile.png" alt="profile pic" style="float:left;" />
+          <h2>@brk3</h2>
+          <h2>brk3.github.io</h2>
+          <h2>github.com/brk3</h2>
         </section>
 
         <section>
@@ -83,8 +90,7 @@
         </section>
 
         <section>
-          <h1>Lesson One</h1>
-          <h2>You can!</h2>
+          <h1>You can!</h1>
           <aside class="notes">
           Chances are, you can, because unfortunately
           </aside>
@@ -93,6 +99,13 @@
         <section>
           <h2>A lot of Android apps suck</h2>
           <aside class="notes">
+          - The little things matter
+            - ... loading dialogs
+            - deviate from stanards seeminly without any good reason
+            - how much you hide behind the scenes
+            - graphics
+          - apps should work like magic (reto meir)
+
           - Not so much the case as when I started
           - But you still don't have to look hard
           </aside>
@@ -105,9 +118,42 @@
         </section>
 
         <section data-background="#eeeeee">
-          <h2 style="color:black">Getting Started</h2>
-          <h2 style="color:black">What's in your toolbox?</h2>
+          <h1 style="color:black">Getting Started</h1>
           <aside class="notes">
+          </aside>
+        </section>
+
+        <section>
+          <img class="plain" src="images/glimmr_v1.png" style="float:left;" alt="glimmr screenshot" />
+          <h2>Initial Commit</h2>
+          <ul class="fragment">
+            <li>One Activity</li>
+            <pre><code data-trim>android.app.Activity;</code></pre>
+            <li>One Fragment</li>
+            <pre><code data-trim>android.app.Fragment;</code></pre>
+            <li>Viewpager</li>
+            <pre><code data-trim>android.support.v4.view.ViewPager</code></pre>
+          </ul>
+          <aside class="notes">
+          - Glimmr in May 2012
+          </aside>
+        </section>
+
+        <section>
+          <img class="plain" src="images/glimmr_v2.png" style="float:left;" alt="glimmr screenshot" />
+          <ul>
+            <li>XML</li>
+            <pre><code data-trim>
+              http://jgilfelt.github.io/
+  android-actionbarstylegenerator/</code></pre>
+            <li>LazyList</li>
+            <pre><code data-trim>
+              https://github.com/
+  thest1/LazyList</code></pre>
+          </ul>
+          <aside class="notes">
+          - A few more nights of xml tweaking
+          - Talk about lazy list
           </aside>
         </section>
 
@@ -180,6 +226,7 @@
         </section>
 
         <section>
+          <img class="plain" src="images/style_guide.png" alt="style guide" />
           <h2>Style Guide</h2>
           <aside class="notes">
           </aside>
@@ -187,7 +234,7 @@
 
         <section>
           <h1>Lesson Three</h1>
-          <h2>Don't deviate without good reasons</h2>
+          <h2>Don't deviate without good reason</h2>
           <aside class="notes">
           </aside>
         </section>
@@ -210,6 +257,9 @@
         center: true,
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+        width: 1100,
+        height: 700,
 
         // Parallax scrolling
         // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
