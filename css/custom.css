@@ -17,3 +17,14 @@
   border-radius: 50%;
 }
 
+.rotate_left {
+  transform:rotate(-7deg);
+  -ms-transform:rotate(-7deg);
+  -webkit-transform:rotate(-7deg);
+}
+
+.rotate_right {
+  transform:rotate(7deg);
+  -ms-transform:rotate(7deg);
+  -webkit-transform:rotate(7deg);
+}
